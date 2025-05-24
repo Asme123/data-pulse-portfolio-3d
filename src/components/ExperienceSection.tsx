@@ -5,23 +5,23 @@ import { motion } from 'framer-motion';
 export const ExperienceSection = () => {
   const experiences = [
     {
-      year: '2018 - Present',
-      title: 'Senior Data Engineer',
-      company: 'Enterprise Solutions',
+      year: '2021 - Present',
+      title: 'Data Engineer',
+      company: 'IBM India Pvt. Ltd.',
       description: 'Leading data platform architecture and implementing scalable ETL pipelines for enterprise clients.',
       highlights: ['AWS Cloud Migration', 'Real-time Processing', 'Team Leadership']
     },
     {
-      year: '2016 - 2018',
+      year: '2019 - 2021',
       title: 'Data Engineer',
-      company: 'Tech Solutions Inc.',
+      company: 'Capgemini Pvt. Ltd.',
       description: 'Developed data warehousing solutions and optimized database performance for high-volume applications.',
       highlights: ['Data Warehousing', 'Performance Optimization', 'Big Data Processing']
     },
     {
-      year: '2014 - 2016',
-      title: 'Junior Data Engineer',
-      company: 'Innovation Labs',
+      year: '2017 - 2019',
+      title: 'Software Developer',
+      company: 'Cloodon Learning/Last Mile Consultants',
       description: 'Started career building ETL processes and data integration solutions for various business domains.',
       highlights: ['ETL Development', 'Data Integration', 'Business Intelligence']
     }

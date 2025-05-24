@@ -43,16 +43,12 @@ export const HeroSection = () => {
             className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6"
           >
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-              Data Engineer
+              Engineer of Data,
             </span>
-            <br />
-            <span className="text-white">by Mind,</span>
             <br />
             <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Technologist
+              Enabler of AI
             </span>
-            <br />
-            <span className="text-white">by Passion</span>
           </motion.h1>
 
           <motion.p

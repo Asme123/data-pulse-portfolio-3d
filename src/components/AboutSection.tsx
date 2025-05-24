@@ -29,7 +29,7 @@ export const AboutSection = () => {
             <h3 className="text-2xl font-bold text-white mb-4">Asmita Patel</h3>
             <div className="space-y-4 text-gray-300">
               <p className="text-lg leading-relaxed">
-                I'm a Senior Data Engineer with over 7 years of experience designing and implementing 
+                I'm a Data Engineer with over 7 years of experience designing and implementing 
                 scalable, high-performance data platforms. My expertise spans big data processing, 
                 real-time and batch data pipelines, data modeling, and cloud-native data solutions.
               </p>
@@ -53,6 +53,8 @@ export const AboutSection = () => {
               <div className="bg-slate-800/50 p-6 rounded-lg border border-purple-500/20">
                 <h4 className="text-xl font-semibold text-purple-400 mb-2">Education</h4>
                 <p className="text-sm text-gray-300">B.Tech - Purushottam Institute of Engg & Technology</p>
+                <p className="text-xs text-gray-400 mt-1">12th - DAV Public School</p>
+                <p className="text-xs text-gray-400">10th - St. Gregorios School</p>
               </div>
             </div>
           </motion.div>

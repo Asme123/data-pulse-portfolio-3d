@@ -11,27 +11,27 @@ export const SkillsSection = () => {
     },
     {
       title: 'Libraries & Frameworks',
-      skills: ['Pandas', 'NumPy', 'psycopg2', 'boto3', 'Django', 'Node.js'],
+      skills: ['Pandas', 'NumPy', 'psycopg2', 'boto3', 'Flask'],
       color: 'from-purple-500 to-pink-500'
     },
     {
       title: 'Big Data & Streaming',
-      skills: ['Apache Spark', 'Apache Flink', 'Kafka', 'AWS Glue'],
+      skills: ['Apache Spark (PySpark)', 'Spark SQL', 'Apache Flink', 'Kafka'],
       color: 'from-green-500 to-emerald-500'
     },
     {
       title: 'DevOps & Tools',
-      skills: ['Docker', 'Git', 'Linux', 'RESTful APIs'],
+      skills: ['Docker/Podman', 'Git', 'CI/CD Pipeline'],
       color: 'from-orange-500 to-red-500'
     },
     {
-      title: 'AI/ML & Analytics',
-      skills: ['Deep Learning', 'Computer Vision', 'Time Series', 'EDA', 'AutoML'],
+      title: 'Database Technologies',
+      skills: ['PostgreSQL', 'AWS Redshift', 'DynamoDB'],
       color: 'from-indigo-500 to-purple-500'
     },
     {
       title: 'Cloud Technologies',
-      skills: ['AWS Lambda', 'Step Functions', 'AWS Redshift'],
+      skills: ['AWS Glue', 'AWS Lambda', 'Step Functions'],
       color: 'from-yellow-500 to-orange-500'
     }
   ];

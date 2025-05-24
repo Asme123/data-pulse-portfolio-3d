@@ -68,14 +68,29 @@ export const ContactSection = () => {
                     <span className="text-purple-400 text-xl">✉️</span>
                   </div>
                   <div>
-                    <p className="text-gray-400">Website</p>
+                    <p className="text-gray-400">Email</p>
                     <a 
-                      href="https://asmitapatel.in/" 
+                      href="mailto:patelasmita048@gmail.com" 
+                      className="text-purple-400 hover:text-purple-300 font-medium transition-colors duration-200"
+                    >
+                      patelasmita048@gmail.com
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center">
+                    <span className="text-purple-400 text-xl">💼</span>
+                  </div>
+                  <div>
+                    <p className="text-gray-400">LinkedIn</p>
+                    <a 
+                      href="https://linkedin.com/in/asmita90" 
                       className="text-purple-400 hover:text-purple-300 font-medium transition-colors duration-200"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      asmitapatel.in
+                      linkedin.com/in/asmita90
                     </a>
                   </div>
                 </div>
