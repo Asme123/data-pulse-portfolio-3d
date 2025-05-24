@@ -35,19 +35,19 @@ export const RotatingWireframe = () => {
       {/* Torus */}
       <mesh ref={torusRef} position={[2, 0, -5]}>
         <torusGeometry args={[1, 0.3, 16, 100]} />
-        <meshBasicMaterial color="#8b5cf6" wireframe />
+        <meshBasicMaterial args={[{ color: "#8b5cf6", wireframe: true }]} />
       </mesh>
       
       {/* Sphere */}
       <mesh ref={sphereRef} position={[-2, 2, -7]}>
         <sphereGeometry args={[0.8, 32, 32]} />
-        <meshBasicMaterial color="#ec4899" wireframe />
+        <meshBasicMaterial args={[{ color: "#ec4899", wireframe: true }]} />
       </mesh>
       
       {/* Box */}
       <mesh ref={boxRef} position={[-1, -2, -6]}>
         <boxGeometry args={[1.2, 1.2, 1.2]} />
-        <meshBasicMaterial color="#3b82f6" wireframe />
+        <meshBasicMaterial args={[{ color: "#3b82f6", wireframe: true }]} />
       </mesh>
     </group>
   );

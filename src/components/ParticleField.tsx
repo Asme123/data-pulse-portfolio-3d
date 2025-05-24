@@ -51,11 +51,13 @@ export const ParticleField = () => {
         />
       </bufferGeometry>
       <pointsMaterial
-        size={0.1}
-        vertexColors
-        transparent
-        opacity={0.6}
-        sizeAttenuation
+        args={[{
+          size: 0.1,
+          vertexColors: true,
+          transparent: true,
+          opacity: 0.6,
+          sizeAttenuation: true
+        }]}
       />
     </points>
   );
