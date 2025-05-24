@@ -53,13 +53,13 @@ export const AboutSection = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
               <div className="bg-slate-800/50 p-6 rounded-lg border border-purple-500/20">
                 <h4 className="text-xl font-semibold text-purple-400 mb-2">Experience</h4>
-                <p className="text-2xl font-bold text-white">7+ Years</p>
+                <p className="text-2xl text-white font-semibold px-0">7+ Years</p>
               </div>
               
               <div className="bg-slate-800/50 p-6 rounded-lg border border-purple-500/20">
                 <h4 className="text-xl font-semibold text-purple-400 mb-2">Education</h4>
                 <p className="text-sm text-gray-300">B.Tech - Purushottam Institute of Engg & Technology</p>
-                <p className="text-xs text-gray-400 mt-1">12th - DAV Public School</p>
+                <p className="mt-1 text-gray-300 text-sm">12th - DAV Public School</p>
                 <p className="text-sm text-left text-gray-300">10th - St. Gregorios School</p>
               </div>
             </div>
