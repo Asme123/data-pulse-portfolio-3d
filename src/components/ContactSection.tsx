@@ -1,12 +1,15 @@
+
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { toast } from 'sonner';
+
 export const ContactSection = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: ''
   });
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast.success('Message sent! I\'ll get back to you soon.');
@@ -16,25 +19,24 @@ export const ContactSection = () => {
       message: ''
     });
   };
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
     });
   };
-  return <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50">
+
+  return (
+    <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-900/50">
       <div className="max-w-6xl mx-auto">
-        <motion.div initial={{
-        opacity: 0,
-        y: 50
-      }} whileInView={{
-        opacity: 1,
-        y: 0
-      }} viewport={{
-        once: true
-      }} transition={{
-        duration: 0.8
-      }} className="text-center mb-16">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="text-center mb-16"
+        >
           <h2 className="text-4xl sm:text-5xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-6">
             Let's Connect
           </h2>
@@ -45,17 +47,13 @@ export const ContactSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Info */}
-          <motion.div initial={{
-          opacity: 0,
-          x: -50
-        }} whileInView={{
-          opacity: 1,
-          x: 0
-        }} viewport={{
-          once: true
-        }} transition={{
-          duration: 0.8
-        }} className="space-y-8">
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="space-y-8"
+          >
             <div>
               <h3 className="text-2xl font-bold text-white mb-6">Get in Touch</h3>
               <div className="space-y-4">
@@ -83,8 +81,11 @@ export const ContactSection = () => {
 
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center">
-                    <span className="text-purple-400 text-xl">
-                  </span>
+                    <img 
+                      src="/lovable-uploads/6364d56e-336a-4975-bc75-41aef1a76aeb.png" 
+                      alt="LinkedIn" 
+                      className="w-6 h-6"
+                    />
                   </div>
                   <div>
                     <p className="text-gray-400">LinkedIn</p>
@@ -157,5 +158,6 @@ export const ContactSection = () => {
           </motion.div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
